@@ -4,7 +4,7 @@
 
 class Cat 
   attr_accessor :name
-  def initialize 
+  def meow 
     @name = "Maru"
   end 
 end 
