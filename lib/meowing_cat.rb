@@ -5,11 +5,14 @@
 class Cat 
   attr_accessor :name
   def initialize 
-    @breed = "Mutt"
+    
   end 
 end 
 
-d1 = Dog.new 
-d1.breed 
+maru = Cat.new 
+maru.name = "Maru"
+
+maru.name
+maru.meow
 end
 
