@@ -5,7 +5,7 @@
 class Cat 
   attr_accessor :name
   def initialize 
-    
+    @meow = meow
   end 
 end 
 
